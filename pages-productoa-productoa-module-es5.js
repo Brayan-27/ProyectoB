@@ -254,8 +254,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           cantidad_max: ""
         };
         this.pruebas = [];
-        this.url = 'http://localhost/proG/server_api/crear_productoa.php';
-        this.url3 = 'http://localhost/proG/server_api/menu_productoa.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_productoa.php';
+        this.url3 = 'http://192.168.4.153/serve_api/menu_productoa.php';
         this.listarRegistroPA();
       }
 

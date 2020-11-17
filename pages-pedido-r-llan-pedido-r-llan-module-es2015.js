@@ -138,11 +138,11 @@ let PedidoRLlanPage = class PedidoRLlanPage {
         //dato de calculo
         this.objeto12 = { semana: "", total_costo: "" };
         this.pruebas12 = [];
-        this.url3 = 'http://localhost/proG/server_api/crear_datoL.php';
+        this.url3 = 'http://192.168.4.153/serve_api/crear_datoL.php';
         this.history = [];
         this.objeto = { Des_de_alimnentos: "", Unidad_de_Media: "", Gr_ML_Desayuno: "", Gr_ML_Sopa: "", Gr_ML_Segundo: "", Gr_ML_Cena: "" };
         this.pruebas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_registroPDL.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_registroPDL.php';
         this.listarRegistroPDL();
     }
     ngOnInit() {

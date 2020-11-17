@@ -250,7 +250,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           total_costo: ""
         };
         this.pruebas12 = [];
-        this.url3 = 'http://localhost/proG/server_api/menu_datoV.php'; //deatos regisro PSV
+        this.url3 = 'http://192.168.4.153/serve_api/menu_datoV.php'; //deatos regisro PSV
 
         this.objeto = {
           Des_de_semana: "",
@@ -264,8 +264,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           domingo: ""
         };
         this.pruebas = [];
-        this.url = 'http://localhost/proG/server_api/crear_registroPSV.php';
-        this.url2 = 'http://localhost/proG/server_api/menu_registroPSV.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_registroPSV.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_registroPSV.php';
         this.listarRegistroPSV();
         this.listarRegistroDV();
       }

@@ -133,15 +133,15 @@ let IntroPage = class IntroPage {
         //SEMANA A
         this.objeto = { numsemana: "", descripcion: "", lunes: "", martes: "", miercoles: "", jueves: "", viernes: "", sabado: "", domingo: "" };
         this.semanas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_semanal_A.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_semanal_A.php';
         //SEMANA lLANOS
         this.objeto1 = { numsemana: "", descripcion: "", lunes: "", martes: "", miercoles: "", jueves: "", viernes: "", sabado: "", domingo: "" };
         this.semanas1 = [];
-        this.url3 = 'http://localhost/proG/server_api/menu_semanal_L.php';
+        this.url3 = 'http://192.168.4.153/serve_api/menu_semanal_L.php';
         //SEMANA VALLE
         this.objeto2 = { numsemana: "", descripcion: "", lunes: "", martes: "", miercoles: "", jueves: "", viernes: "", sabado: "", domingo: "" };
         this.semanas2 = [];
-        this.url4 = 'http://localhost/proG/server_api/menu_semanalv.php';
+        this.url4 = 'http://192.168.4.153/serve_api/menu_semanalv.php';
         this.listarSemanas();
         this.listarSemanas1();
         this.listarSemanas2();

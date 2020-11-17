@@ -248,7 +248,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           domingo: ""
         };
         this.semanas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_semanal_A.php'; //SEMANA lLANOS
+        this.url2 = 'http://192.168.4.153/serve_api/menu_semanal_A.php'; //SEMANA lLANOS
 
         this.objeto1 = {
           numsemana: "",
@@ -262,7 +262,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           domingo: ""
         };
         this.semanas1 = [];
-        this.url3 = 'http://localhost/proG/server_api/menu_semanal_L.php'; //SEMANA VALLE
+        this.url3 = 'http://192.168.4.153/serve_api/menu_semanal_L.php'; //SEMANA VALLE
 
         this.objeto2 = {
           numsemana: "",
@@ -276,7 +276,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           domingo: ""
         };
         this.semanas2 = [];
-        this.url4 = 'http://localhost/proG/server_api/menu_semanalv.php';
+        this.url4 = 'http://192.168.4.153/serve_api/menu_semanalv.php';
         this.listarSemanas();
         this.listarSemanas1();
         this.listarSemanas2();

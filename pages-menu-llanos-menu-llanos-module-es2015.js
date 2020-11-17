@@ -118,8 +118,8 @@ let MenuLlanosPage = class MenuLlanosPage {
         //del registro de la semana
         this.objeto = { numsemana: "", descripcion: "", lunes: "", martes: "", miercoles: "", jueves: "", viernes: "", sabado: "", domingo: "" };
         this.semanas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_semanal_L.php';
-        this.url = 'http://localhost/proG/server_api/crear_semana_L.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_semanal_L.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_semana_L.php';
         this.listarSemanas();
     }
     getSemanas() {

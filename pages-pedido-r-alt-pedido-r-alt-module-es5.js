@@ -250,7 +250,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           total_costo: ""
         };
         this.pruebas12 = [];
-        this.url3 = 'http://localhost/proG/server_api/crear_datoA.php';
+        this.url3 = 'http://192.168.4.153/serve_api/crear_datoA.php';
         this.history = [];
         this.objeto = {
           Des_de_alimnentos: "",
@@ -261,7 +261,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           Gr_ML_Cena: ""
         };
         this.pruebas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_registroPDA.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_registroPDA.php';
         this.listarRegistroPDA();
       }
 

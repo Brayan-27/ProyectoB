@@ -138,12 +138,12 @@ let PedidoSVPage = class PedidoSVPage {
         //dato de calculo
         this.objeto12 = { semana: "", total_costo: "" };
         this.pruebas12 = [];
-        this.url3 = 'http://localhost/proG/server_api/menu_datoV.php';
+        this.url3 = 'http://192.168.4.153/serve_api/menu_datoV.php';
         //deatos regisro PSV
         this.objeto = { Des_de_semana: "", mes: "", lunes: "", martes: "", miercoles: "", jueves: "", viernes: "", sabado: "", domingo: "" };
         this.pruebas = [];
-        this.url = 'http://localhost/proG/server_api/crear_registroPSV.php';
-        this.url2 = 'http://localhost/proG/server_api/menu_registroPSV.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_registroPSV.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_registroPSV.php';
         this.listarRegistroPSV();
         this.listarRegistroDV();
     }

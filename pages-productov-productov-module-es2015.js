@@ -138,8 +138,8 @@ let ProductovPage = class ProductovPage {
         this.actRoute = actRoute;
         this.objeto = { tipo: "", nombreali: "", cantidad_pro: "", cantidad_min: "", cantidad_med: "", cantidad_max: "" };
         this.pruebas = [];
-        this.url = 'http://localhost/proG/server_api/crear_productov.php';
-        this.url3 = 'http://localhost/proG/server_api/menu_productov.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_productov.php';
+        this.url3 = 'http://192.168.4.153/serve_api/menu_productov.php';
         this.listarRegistroPA();
     }
     ngOnInit() {

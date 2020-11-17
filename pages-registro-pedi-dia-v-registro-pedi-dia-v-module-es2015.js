@@ -137,11 +137,11 @@ let RegistroPediDiaVPage = class RegistroPediDiaVPage {
         this.accsPrvds = accsPrvds;
         this.objeto = { Des_de_alimnentos: "", Unidad_de_Media: "", Gr_ML_Desayuno: "", Gr_ML_Sopa: "", Gr_ML_Segundo: "", Gr_ML_Cena: "" };
         this.pruebas = [];
-        this.url = 'http://localhost/proG/server_api/crear_registroPDV.php';
-        this.url2 = 'http://localhost/proG/server_api/menu_registroPDV.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_registroPDV.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_registroPDV.php';
         this.objeto1 = { tipo: "", nombreali: "", cantidad_pro: "", cantidad_min: "", cantidad_med: "", cantidad_max: "" };
         this.pruebas1 = [];
-        this.url3 = 'http://localhost/proG/server_api/menu_productov.php';
+        this.url3 = 'http://192.168.4.153/serve_api/menu_productov.php';
         this.listarRegistroPDV();
         this.listarRegistroPA();
     }

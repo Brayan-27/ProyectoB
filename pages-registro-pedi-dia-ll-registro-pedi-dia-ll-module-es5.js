@@ -253,8 +253,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           Gr_ML_Cena: ""
         };
         this.pruebas = [];
-        this.url = 'http://localhost/proG/server_api/crear_registroPDL.php';
-        this.url2 = 'http://localhost/proG/server_api/menu_registroPDL.php'; //producto
+        this.url = 'http://192.168.4.153/serve_api/crear_registroPDL.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_registroPDL.php'; //producto
 
         this.objeto1 = {
           tipo: "",
@@ -265,7 +265,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           cantidad_max: ""
         };
         this.pruebas1 = [];
-        this.url3 = 'http://localhost/proG/server_api/menu_productol.php';
+        this.url3 = 'http://192.168.4.153/serve_api/menu_productol.php';
         this.listarRegistroPDL();
         this.listarRegistroPA();
       }

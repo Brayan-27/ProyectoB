@@ -216,8 +216,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           domingo: ""
         };
         this.semanas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_semanalv.php';
-        this.url = 'http://localhost/proG/server_api/crear_semana.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_semanalv.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_semana.php';
         this.listarSemanas();
       }
 

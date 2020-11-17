@@ -116,8 +116,8 @@ let MenuAltiplanoPage = class MenuAltiplanoPage {
         //del registro de la semana
         this.objeto = { numsemana: "", descripcion: "", lunes: "", martes: "", miercoles: "", jueves: "", viernes: "", sabado: "", domingo: "" };
         this.semanas = [];
-        this.url2 = 'http://localhost/proG/server_api/menu_semanal_A.php';
-        this.url = 'http://localhost/proG/server_api/crear_semana_A.php';
+        this.url2 = 'http://192.168.4.153/serve_api/menu_semanal_A.php';
+        this.url = 'http://192.168.4.153/serve_api/crear_semana_A.php';
         this.listarSemanas();
     }
     getSemanas() {
