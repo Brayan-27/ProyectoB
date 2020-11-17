@@ -1034,7 +1034,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.http = http; //url backen api json
 
-        this.server = 'http://localhost/proG/server_api/';
+        this.server = 'http://192.168.4.153/serve_api/';
       }
 
       _createClass(AccessProviders, [{
