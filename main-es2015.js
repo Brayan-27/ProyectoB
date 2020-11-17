@@ -833,7 +833,7 @@ let AccessProviders = class AccessProviders {
     constructor(http) {
         this.http = http;
         //url backen api json
-        this.server = 'http://192.168.4.153/proG/server_api/';
+        this.server = 'http://localhost/proG/server_api/';
     }
     postData(body, file) {
         let headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
